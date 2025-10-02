@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadis Wulandari's Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="overlay"></div>
+  <div class="cursor"></div>
+  <div id="progressBar"></div>
+
+  <button id="modeToggle">☀️</button>
+
+  <header>
+    <h1 class="shimmer">✨ Gadis Wulandari ✨</h1>
+    <p class="tagline">Student at Mulawarman University with NIM 2409106026.</p>
+  </header>
+
+  <main>
+
+    <section class="profile">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+      <h2>About Me</h2>
+      <p class="blockquote-glow blockquote-small">
+        "My standards are high, my patience is low. Know the difference before you approach the queen."
+      </p>
+    </section>
+
+    <section class="info">
+      <h2>Quick Info</h2>
+      <ul>
+        <li><strong>Name:</strong> Gadis Wulandari</li>
+        <li><strong>Origin:</strong> Samarinda</li>
+        <li><strong>Date of Birth:</strong> March 14, 2006</li>
+        <li><strong>Gender:</strong> Female</li>
+        <li><strong>Hobbies:</strong> Fashion ✨ | Gaming 🎮 | Sleep 💤 | Makeup 💄</li>
+      </ul>
+    </section>
+
+    <hr class="section-divider">
+
+    <section class="info">
+      <h2>Favorites Check 💖</h2>
+      <ul>
+        <li><strong>Current Aesthetic:</strong> Soft Feminine / Baddie</li>
+        <li><strong>Favorite Flavor:</strong> Tiramisu (of course!) ☕️</li>
+        <li><strong>Go-To Music Genre:</strong> Pop & R&B songs</li>
+        <li><strong>Power Color:</strong> Pink, Maroon, and White</li>
+        <li><strong>Dream Job:</strong> Creative Director of a luxury brand & Astronout</li>
+      </ul>
+    </section>
+
+    <section class="style-vibe">
+      <h2>My Vibes & Mood 💅</h2>
+      <div class="vibe-cards">
+        <div class="card">
+          <h3>High Standards Only</h3>
+          <p>I set the bar. Effort is cute, but consistency is a requirement.</p>
+        </div>
+        <div class="card">
+          <h3>Silent Moves</h3>
+          <p>I keep my intentions private. Let your success make the noise for you.</p>
+        </div>
+        <div class="card">
+          <h3>The Look</h3>
+          <p>Soft lips, sharp liner, on point blush, and a scent that commands attention.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Message..." required></textarea>
+        <button type="submit">Send Message 💌</button>
+      </form>
+    </section>
+
+    <section class="music">
+      <h2>The Songs Fit Me So Well 🎧</h2>
+      <p id="nowPlaying">Now Playing: Song 1</p>
+      <audio id="audioPlayer" autoplay>
+        <source src="lagu1.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+      <div class="music-controls">
+        <button id="prevSong">⏮️ Prev</button>
+        <button id="playPause">⏸️</button>
+        <button id="nextSong">⏭️ Next</button>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section class="status-baddie">
+
+      <div class="mood-tracker">
+        <h2>Current Status 💎</h2>
+        <div class="mood-box">
+          <div class="status-item">
+            <span class="status-icon">💅</span>
+            <p class="status-detail">Mood Today: Unbothered.</p>
+          </div>
+          <div class="status-item">
+            <span class="status-icon">📍</span>
+            <p class="status-detail">My Location: Sleepp zzz.</p>
+          </div>
+          <div class="status-item">
+            <span class="status-icon">👑</span>
+            <p class="status-detail">Mantra: I am not a backup plan. I am the plan.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="friends">
+        <h2>The Other Baddie 👯‍♀️</h2>
+        <div class="friend-card">
+          <img src="friend.jpg" alt="Friend's Photo" class="friend-img">
+          <p>Meet my ride-or-die baddie, Ghesya 💋</p>
+          <a href="https://yourfriendsprofile.com" target="_blank" class="friend-link">
+            Check Her Vibes
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="fortune-pull">
+        <h2>✨ Pull Your Fortune ✨</h2>
+            <p id="fortuneText">Click the button and see your baddie fortune 🔮</p>
+        <button id="fortuneBtn">✨ Pull Fortune ✨</button>
+    </section>
+
+    <section class="zodiac">
+  <h2>✨ Discover Your Zodiac Vibes ✨</h2>
+  <p>Enter your birth date to reveal your star power!</p>
+  <input type="date" id="birthDate">
+  <button id="checkZodiac">Reveal 🔮</button>
+
+  <div id="zodiacResult" class="zodiac-card">
+  </div>
+</section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Gadis Wulandari | If you know me, then leave.</p>
+  </footer>
+
+  <div class="social-icons">
+    <a href="https://instagram.com/gtramisu" target="_blank" title="Instagram">📸</a>
+    <a href="https://tiktok.com/@theverydiss" target="_blank" title="TikTok">🎵</a>
+    <a href="https://wa.me/6285822161864" target="_blank" title="WhatsApp">💬</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
